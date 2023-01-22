@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="providerType_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="providerType" type="xstring" value="INTERACTIVE"/>
+        <config key="INTERACTIVE">
+            <config key="scopes_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="scopes">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="https://analysis.windows.net/powerbi/api/Dataset.ReadWrite.All https://analysis.windows.net/powerbi/api/Workspace.Read.All"/>
+            </config>
+            <config key="blobStorageAccount_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="blobStorageAccount" type="xstring" value=""/>
+            <config key="otherScopes_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="otherScopes" type="xstring" value=""/>
+            <config key="useCustomEndpoint_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCustomEndpoint" type="xboolean" value="false"/>
+            <config key="customEndpoint_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="customEndpoint" type="xstring" value=""/>
+            <config key="useCustomAppId_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCustomAppId" type="xboolean" value="false"/>
+            <config key="customAppId_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="customAppId" type="xstring" value=""/>
+            <config key="memory"/>
+            <config key="file">
+                <config key="token_cache_file_Internals">
+                    <entry key="SettingsModelID" type="xstring" value="SMID_WriterFileChooser"/>
+                    <entry key="EnabledStatus" type="xboolean" value="false"/>
+                </config>
+                <config key="token_cache_file">
+                    <config key="file_system_chooser__Internals">
+                        <entry key="has_fs_port" type="xboolean" value="false"/>
+                        <entry key="overwritten_by_variable" type="xboolean" value="false"/>
+                        <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
+                        <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+                        <entry key="mountpoint" type="xstring" value="LOCAL"/>
+                        <entry key="spaceId" type="xstring" value=""/>
+                        <entry key="spaceName" type="xstring" value=""/>
+                        <entry key="custom_url_timeout" type="xint" value="1000"/>
+                        <entry key="connected_fs" type="xboolean" value="true"/>
+                    </config>
+                    <config key="path">
+                        <entry key="location_present" type="xboolean" value="true"/>
+                        <entry key="file_system_type" type="xstring" value="LOCAL"/>
+                        <entry key="path" type="xstring" value=""/>
+                    </config>
+                    <config key="filter_mode_Internals">
+                        <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
+                        <entry key="EnabledStatus" type="xboolean" value="false"/>
+                    </config>
+                    <entry key="create_missing_folders" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <config key="nodesettings">
+                <config key="tokenCache_Internals">
+                    <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+                    <entry key="EnabledStatus" type="xboolean" value="true"/>
+                </config>
+                <entry key="tokenCache" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBj2gMuOo="/>
+            </config>
+            <config key="storageType_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="storageType" type="xstring" value="MEMORY"/>
+            <config key="redirectUrl_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="redirectUrl" type="xstring" value=""/>
+        </config>
+        <config key="USERNAME_PASSWORD">
+            <config key="scopes_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="scopes">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Sites.ReadWrite.All"/>
+            </config>
+            <config key="blobStorageAccount_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="blobStorageAccount" type="xstring" value=""/>
+            <config key="otherScopes_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="otherScopes" type="xstring" value=""/>
+            <config key="useCustomEndpoint_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCustomEndpoint" type="xboolean" value="false"/>
+            <config key="customEndpoint_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="customEndpoint" type="xstring" value=""/>
+            <config key="useCustomAppId_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCustomAppId" type="xboolean" value="false"/>
+            <config key="customAppId_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="customAppId" type="xstring" value=""/>
+            <config key="username_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="username" type="xstring" value=""/>
+            <config key="password_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="password" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBj-uTlI8="/>
+            <config key="useCredentials_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCredentials" type="xboolean" value="false"/>
+            <config key="credentialsName_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="credentialsName" type="xstring" value=""/>
+        </config>
+        <config key="CLIENT_SECRET">
+            <config key="app_type_scopes_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="app_type_scopes">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="https://graph.microsoft.com/.default"/>
+            </config>
+            <config key="otherScope_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="otherScope" type="xstring" value=""/>
+            <config key="tenant_id_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="tenant_id" type="xstring" value=""/>
+            <config key="client_id_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="client_id" type="xstring" value=""/>
+            <config key="secret_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="secret" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBj-uTlI8="/>
+            <config key="useCredentials_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCredentials" type="xboolean" value="false"/>
+            <config key="credentialsName_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="credentialsName" type="xstring" value=""/>
+        </config>
+        <config key="AZURE_STORAGE_SHARED_KEY">
+            <config key="account_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="account" type="xstring" value=""/>
+            <config key="secretKey_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="secretKey" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBjyT0gHY="/>
+            <config key="useCredentials_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCredentials" type="xboolean" value="false"/>
+            <config key="credentialsName_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="credentialsName" type="xstring" value=""/>
+        </config>
+        <config key="AZURE_STORAGE_SAS">
+            <config key="sasUrl_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="sasUrl" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBj7IuOdE="/>
+            <config key="useCredentials_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="useCredentials" type="xboolean" value="false"/>
+            <config key="credentialsName_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="credentialsName" type="xstring" value=""/>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.microsoft.authentication.node.auth.MicrosoftAuthenticationNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Microsoft Authentication"/>
+    <entry key="node-bundle-name" type="xstring" value="Microsoft authentication extension for KNIME Workbench"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.microsoft.authentication"/>
+    <entry key="node-bundle-vendor" type="xstring" value=""/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211161506"/>
+    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="File System Connection"/>
+        <config key="Microsoft Credential"/>
+    </config>
+    <entry key="name" type="xstring" value="Microsoft Authentication"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.ext.microsoft.authentication.port.MicrosoftCredentialPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.ext.microsoft.authentication.port.MicrosoftCredentialPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="lramirezr1602@alumno.ipn.mx"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="8582a769-1850-4bc5-bd74-09a9cdfb120d"/>
+    </config>
+</config>

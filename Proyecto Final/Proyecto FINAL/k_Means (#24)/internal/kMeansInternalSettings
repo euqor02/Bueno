@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="13"/>
+    <entry key="ignoredColumns" type="xint" value="10"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xint" value="54219"/>
+        <entry key="1" type="xint" value="66282"/>
+        <entry key="2" type="xint" value="42947"/>
+        <entry key="3" type="xint" value="10"/>
+        <entry key="4" type="xint" value="78255"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2018.0"/>
+        <entry key="1" type="xdouble" value="19.324140863925297"/>
+        <entry key="2" type="xdouble" value="-99.20196328725225"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2018.0"/>
+        <entry key="1" type="xdouble" value="19.332045011353824"/>
+        <entry key="2" type="xdouble" value="-99.06590122201428"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2018.0"/>
+        <entry key="1" type="xdouble" value="19.49202038380215"/>
+        <entry key="2" type="xdouble" value="-99.12982069250553"/>
+    </config>
+    <config key="kMeansCluster3">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2018.0"/>
+        <entry key="1" type="xdouble" value="19.371680010000002"/>
+        <entry key="2" type="xdouble" value="-991.1592"/>
+    </config>
+    <config key="kMeansCluster4">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="2018.0"/>
+        <entry key="1" type="xdouble" value="19.41208792782457"/>
+        <entry key="2" type="xdouble" value="-99.15635511167989"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="13"/>
+        <entry key="0" type="xstring" value="aÃ±o_cierre"/>
+        <entry key="1" type="xstring" value="latitud"/>
+        <entry key="2" type="xstring" value="longitud"/>
+        <entry key="3" type="xstring" isnull="true" value=""/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+        <entry key="5" type="xstring" isnull="true" value=""/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+        <entry key="8" type="xstring" isnull="true" value=""/>
+        <entry key="9" type="xstring" isnull="true" value=""/>
+        <entry key="10" type="xstring" isnull="true" value=""/>
+        <entry key="11" type="xstring" isnull="true" value=""/>
+        <entry key="12" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
